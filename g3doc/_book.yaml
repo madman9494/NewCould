@@ -8,6 +8,7 @@ upper_tabs:
   is_default: true
   menu:
   - include: /resources/_menu_toc.yaml
+  - include: /resources/_menu_toc.yaml
   lower_tabs:
     # Subsite tabs
     other:
