@@ -23,6 +23,13 @@ def gcp_monitoring_grpc_deps():
         "@com_google_googleapis//google/monitoring/v3:monitoring_cc_grpc",
     ]
 
+def gcp_monitoring_grpc_depsa():
+    """Cc grpc libraries for GCP monitoring APIs
+    """
+    return [
+        "@com_google_googleapis//google/monitoring/v3:monitoring_cc_grpc",
+    ]
+
 def gcp_monitoring_proto_deps():
     """Cc proto libraries for GCP monitoring APIs
     """
