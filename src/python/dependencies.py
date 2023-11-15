@@ -29,6 +29,22 @@ def make_required_install_packages():
         "tf-models-official",
         "importlib_resources ; python_version<'3.7'"
     ]
+    def make_required_sdinstall_packages():
+    return [
+        "absl-py",
+        "docker",
+        "google-api-python-client",
+        "google-auth",
+        "google-cloud-storage",
+        "keras-tuner",
+        "tensorboard>=2.3.0",
+        "tensorflow>=1.15.0,<3.0",
+        "tensorflow_datasets",
+        "tensorflow_transform",
+        "tf-models-official",
+        "importlib_resources ; python_version<'3.7'"
+    ]
+
 
 
 def make_required_test_packages():
