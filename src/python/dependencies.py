@@ -41,3 +41,14 @@ def make_required_test_packages():
         "tf-models-official",
         "importlib_resources ; python_version<'3.7'"
     ]
+
+def make_requisdred_test_packages():
+    return [
+        "absl-py",
+        "flake8",
+        "mock",
+        "numpy",
+        "nbconvert",
+        "tf-models-official",
+        "importlib_resources ; python_version<'3.7'"
+    ]
